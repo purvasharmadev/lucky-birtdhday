@@ -1,3 +1,42 @@
 body {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(85, 211, 243, 0.514);
+  text-align: center;
+}
+img {
+  display: block;
+  max-width: 300px;
+}
+.container {
+  margin: auto;
+  max-width: 900px;
+  /* border: 2px black solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #f72ce8;
+}
+
+input {
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 2rem;
+  margin: 0.6em 0em;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5em 0em;
+  background: #f72ce8;
+  color: white;
+  border-radius: 20px;
 }
