@@ -3,30 +3,22 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgba(85, 211, 243, 0.514);
+  background-color: #f72ce8;
   text-align: center;
 }
 img {
   display: block;
-  max-width: 300px;
-}
-.container {
-  margin: auto;
-  max-width: 900px;
-  /* border: 2px black solid; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-width: 250px;
 }
 
 h1 {
   font-size: 2rem;
-  color: #f72ce8;
+  color: blue;
 }
 
 input {
-  padding: 0.5rem;
+  padding: 0.7rem;
+  font-size: 1rem;
   outline: none;
   border-radius: 2rem;
   margin: 0.6em 0em;
@@ -36,7 +28,21 @@ input {
 button {
   padding: 0.5rem 1rem;
   margin: 0.5em 0em;
-  background: #f72ce8;
+  background: rgb(69, 69, 219);
   color: white;
   border-radius: 20px;
+}
+
+.container {
+  margin: auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#msg {
+  font-size: 1.6rem;
+  color: rgb(136, 136, 199);
 }
