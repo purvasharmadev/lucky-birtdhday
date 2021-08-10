@@ -32,6 +32,24 @@ button {
   color: white;
   border-radius: 20px;
 }
+footer {
+  margin-top: 50px 0 20px 0;
+  text-align: center;
+  padding: 20px 0;
+}
+footer ul li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+footer ul li a {
+  font-size: 1.4rem;
+  color: rgb(29, 1, 1);
+}
+footer p {
+  color: rgb(70, 62, 62);
+  font-weight: 700;
+  margin-top: 10px;
+}
 
 .container {
   margin: auto;
@@ -44,5 +62,5 @@ button {
 
 #msg {
   font-size: 1.6rem;
-  color: rgb(136, 136, 199);
+  color: rgb(8, 8, 53);
 }
